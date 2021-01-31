@@ -1,0 +1,203 @@
+/*Reset code */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* my code*/
+*{
+  text-decoration: none;
+}
+/* Mobile */
+/* Header */
+body{
+  background-color: #f3f3f3;
+}
+header{
+  width: 100%;
+  height: 100px;
+  background-color: rgb(253, 253, 253);
+}
+.header-Logo{
+  font-family: 'Potta One', cursive;
+  font-size: 24px;
+  padding: 20px 0px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: rgb(27, 27, 27);
+  margin: 0 auto;
+  display: block;
+  text-align:  center;
+}
+
+header nav ul{
+  margin: 0 auto;
+  display: block;
+  width: fit-content;
+  text-align: center;
+}
+header nav ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 0px 16px;
+  }
+header nav ul li a{
+  font-family: 'Potta One', cursive;
+  color: gray;
+  }
+  /*main*/
+  main ul{
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    text-align: center;
+  }
+  main ul li{
+    list-style: none;
+    width: calc(100% - 40px);
+    height: 200px;
+    margin: 10px 20px 0px;
+    background-color: antiquewhite;
+    width: fit-content;
+    text-align: center;
+    
+  }
+  main ul .sqaureHero{
+    background-image: url('images/SquareHero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  main ul .mallHunt{
+    background-image: url('images/MallHunt.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  main ul .ghoulsRoad{
+    background-image: url('images/GhoulsRoad.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  main ul .gameOfTriangles{
+    background-image: url('images/GameOfTriangles.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  main ul .flappyBird{
+    background-image: url('images/FlappyBird.png  ');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  main ul .basketTheBall-Android{
+    display: block;
+    margin: 10px auto;
+    width: 176px;
+    height: 313px;
+    background-image: url('images/BasketTheBall.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  main ul .basketTheBall-Android a h1{
+    display: block;
+    line-height: 50px;
+    
+    padding-top: 100px;
+    font-size: 30px;
+    width: fit-content;
+  }
+  main ul li a{
+    font-family: 'Potta One', cursive;
+    color: white;
+    font-size: 50px;
+    line-height: 200px;
+    text-shadow: 2px 2px #555555;
+  }
+  /* Footer */
+footer{
+  background-color:rgb(27, 27, 27);
+  margin-top: 10px;
+}
+footer ul{
+  display: block;
+  margin: 0px auto;
+  width: fit-content;
+  text-align: center;
+}
+footer ul li{
+  display: inline-block;
+  padding:10px 20px;
+  
+}
+footer ul li a{
+  text-decoration: none;
+  color: #f3f3f3;
+  font-size: 20px;
+  width: 50%;
+  text-align: center;
+}
+.footer-smImg{
+  width: 50px;
+  height: 50px;
+  vertical-align:middle;
+}
+/* Desktop */
+@media only screen and (min-width: 1000px){
+  /* Main */
+  main ul li{
+    list-style: none;
+    width: calc(100% - 400px);
+    height: 400px;
+    margin: 10px 200px 0px;
+    background-color:#858282;
+    width: fit-content;
+    text-align: center;
+    
+  }
+  main ul li a{
+    line-height: 400px;
+  }
+  main ul .basketTheBall-Android {
+    display: block;
+    margin: 10px auto;
+
+  }
+  
+}
