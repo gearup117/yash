@@ -92,10 +92,11 @@ header nav ul li a{
     text-align: center;
   }
   main ul li{
+    display: block;
     list-style: none;
     width: calc(100% - 40px);
     height: 200px;
-    margin: 10px 20px 0px;
+    margin: 10px 20px 0px auto;
     background-color: antiquewhite;
     width: fit-content;
     text-align: center;
@@ -120,6 +121,9 @@ header nav ul li a{
     background-image: url('images/GameOfTriangles.png');
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  main ul .gameOfTriangles a{
+    font-size: 35px;
   }
   main ul .flappyBird{
     background-image: url('images/FlappyBird.png  ');
